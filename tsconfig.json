@@ -1,0 +1,14 @@
+{
+  "extends": "./../../../../../../tsconfig",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "../../dist/once.browser/main",
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "test",
+    "node_modules"
+  ]
+}
