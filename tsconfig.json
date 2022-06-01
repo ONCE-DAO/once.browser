@@ -3,6 +3,11 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "../../dist/once.browser/main",
+    // "plugins": [
+    //   {
+    //     "transform": "./../../../Thinglish/dist/thinglish.transformer/merge/3_services/transformer.cjs"
+    //   }
+    // ]
   },
   "include": [
     "./src/**/*"
