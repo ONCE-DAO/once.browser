@@ -1,5 +1,7 @@
 {
   "name": "once.browser",
+  "package":"tla.EAM.Once",
+  "onceDependencies":[],
   "version": "0.0.1",
   "description": "",
   "main": "src/OnceServer.mts",
