@@ -3,11 +3,6 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "../../../../../Scenarios/localhost/tla/EAM/Once.Browser/main/",
-    // "plugins": [
-    //   {
-    //     "transform": "./../../../Thinglish/dist/thinglish.transformer/merge/3_services/transformer.cjs"
-    //   }
-    // ]
   },
   "include": [
     "./src/**/*"
