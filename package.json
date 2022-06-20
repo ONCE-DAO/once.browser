@@ -1,7 +1,9 @@
 {
   "name": "browser",
   "namespace": "tla.EAM.Once",
-  "onceDependencies": [],
+  "onceDependencies": [
+    "once.ts"
+  ],
   "version": "0.0.1",
   "description": "",
   "main": "src/OnceServer.mts",
