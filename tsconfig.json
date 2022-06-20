@@ -2,7 +2,7 @@
   "extends": "../../../../../../tsconfig",
   "compilerOptions": {
     "rootDir": "./src",
-    "outDir": "../../../../../../Scenarios/localhost/tla/EAM/Once/Browser/main/",
+    "outDir": "../../../../../../Scenarios/localhost/tla/EAM/Once/Browser/main/dist/",
   },
   "include": [
     "./src/**/*"
