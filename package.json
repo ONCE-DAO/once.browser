@@ -1,6 +1,6 @@
 {
-  "name": "once.browser",
-  "namespace": "tla.EAM",
+  "name": "browser",
+  "namespace": "tla.EAM.Once",
   "onceDependencies": [],
   "version": "0.0.1",
   "description": "",
