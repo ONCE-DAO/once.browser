@@ -4,11 +4,12 @@ import { BaseOnce, EAMD, OnceMode } from "ior:esm:/tla.EAM.Once[dev]"
 export default class BrowserOnce extends BaseOnce {
     ENV: NodeJS.ProcessEnv = {};
     mode: OnceMode = OnceMode.BROWSER;
-    start(): Promise<void> {
-        throw new Error("Method not implemented.");
+    async start(): Promise<void> {
+
     }
-    global: typeof globalThis = global;
-    //HACK
+    global: typeof globalThis = globalThis;
+
+    //HACK There is no eamd right now
     eamd!: EAMD;
 
 
@@ -18,6 +19,5 @@ export default class BrowserOnce extends BaseOnce {
 
     constructor() {
         super();
-        this.global = global;
     }
 }
