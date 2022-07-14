@@ -1,17 +1,7 @@
 {
-  "extends": "../../../../../../tsconfig.json",
-  "compilerOptions": {
-    "rootDir": "./src",
-    "outDir": "../../../../../../Scenarios/localhost/tla/EAM/Once/Browser/dev"
-  },
+  "extends": "./tsconfig.build.json",
   "include": [
     "./src",
-    "../../../../../../Scenarios/localhost"
+    "./test"
   ],
-  "exclude": [
-    "**/test/**/*",
-    "dist",
-    "node_modules",
-    "../../../../../../Scenarios/localhost/tla/EAM/Once/Browser/dev"
-  ]
 }
