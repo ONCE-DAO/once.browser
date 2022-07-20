@@ -105,3 +105,11 @@ dist
 
 .DS_Store
 
+*.d.mts
+*.mjs
+*.mjs.map
+*.d.cts
+*.cjs
+*.cjs.map
+src/index.export.cts
+src/index.export.mts
